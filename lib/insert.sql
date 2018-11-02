@@ -10,26 +10,26 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 ('I want to teach English in China', 'charity', 3000.00, '2013-06-30', '2013-09-30'),
 ('Help save birds of paradise', 'charity', 5000.00, '2012-03-20', '2013-06-30');
 
-INSERT INTO users (name, age) VALUES 
-('Finnebar', 17), 
-('Bear', 6), 
-('Iguana', 4), 
+INSERT INTO users (name, age) VALUES
+('Finnebar', 17),
+('Bear', 6),
+('Iguana', 4),
 ('Alex', 33),
-('Amanda', 24), 
-('Sophie', 24), 
-('Rosey', 9), 
-('Victoria', 23), 
-('Franz', 100), 
+('Amanda', 24),
+('Sophie', 24),
+('Rosey', 9),
+('Victoria', 23),
+('Franz', 100),
 ('Hermione', 30),
-('Voldemort', 90), 
-('Marisa', 24), 
-('Swizzle', 4), 
-('Sirius', 36), 
-('Albus', 113), 
+('Voldemort', 90),
+('Marisa', 24),
+('Swizzle', 4),
+('Sirius', 36),
+('Albus', 113),
 ('Squid', 5),
-('Whale', 6), 
-('Pacha', 5), 
-('Ena', 24), 
+('Whale', 6),
+('Pacha', 5),
+('Ena', 24),
 ('Katie', 24);
 
 INSERT INTO pledges (amount, user_id, project_id) VALUES
